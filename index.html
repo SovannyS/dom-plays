@@ -1,16 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
  <head>
-     <title>Project Name</title>
+     <title>DOM-Play</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/nav.css">
   <link rel="stylesheet" href="css/forms.css">
+  <style>.hamlet{
+    /*background-color: yellow;*/}
+
+    #play span{
+     /* background-color: olive;*/
+    }
+    </style> 
  </head>
  <body>
      <header>
-     <h1 class="page-header">Site Name</h1>
+     <h1 class="page-header">DOM-Play Project</h1>
         <nav class="topnav" id="myTopnav">
             <a href="index.html" class="active">Home</a>
             <a href="#">Link</a>
@@ -20,11 +27,16 @@
      </header>
      
    <main class="wrapper">
-       <h2 class="subheader">Project Name</h2>
+       <h2 class="subheader">DOM-Play</h2>
      
-      <p>Description</p>    
-      <p>Description</p>  
-      <p>Description</p>  
+      <div id="play">
+          <p><span data-actor="sovanny">Sovanny:Hey guys, do you know what my favorite popcorn is?</span></p>    
+          <p><span data-actor="kathy">Kathy: Uhm, no but why are you asking? </span></p>  
+          <p><span data-actor="brico">Brico: Oh I know ! It's kettle corn</span> </p>  
+          <p><span data-actor="sovanny">Sovanny: Wow, what a great friend you are Brico !! </span></p>  
+          <p><span data-actor="brico">Brico: Hah ! I know right ! </span> </p>
+          <p><span data-actor="kathy">Kathy: Hmph, you did not give me time to think. </span></p>
+     </div>
 
      <footer>
       <p><small>&copy; 2021-<span id="this-year"></span> by 
